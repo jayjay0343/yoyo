@@ -1,0 +1,53 @@
+/* unvisited link */
+a:link {
+    color: red;
+    background-color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    background-color: brown;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    background-color: cornsilk;
+    border: 2px solid black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;}
+.red-input:focus {
+    background-color: rgb(240, 179, 104);
+    color: chocolate;
+}    
+.flet::first-letter{
+    font-size: medium;
+    color: cyan;
+}
+.fline::first-line {
+    background-color: yellow;
+  }
+  .fc:first-child{background-color: greenyellow;}
+  .bef::before{content:"read this: ";}
+  .aft::after{content: " - remember this";}
+
+  h1{color: blueviolet;
+  text-align: center;
+  text-decoration: red;
+  text-transform: capitalize;
+  word-spacing: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+
+
+
+
+
+
+
+
+  }
